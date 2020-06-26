@@ -2,9 +2,9 @@
 
 __all__ = ["index", "modules", "custom_doc_links", "git_url"]
 
-index = {}
+index = {"my_sum": "00_physics.ipynb"}
 
-modules = []
+modules = ["physics.py"]
 
 doc_url = "https://fligt.github.io/inktime/"
 
