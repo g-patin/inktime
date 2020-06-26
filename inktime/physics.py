@@ -5,5 +5,6 @@ __all__ = ['my_sum']
 # Cell
 
 def my_sum(x, y):
+    '''A simple test'''
 
     return x + y
