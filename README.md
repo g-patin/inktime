@@ -10,10 +10,13 @@ This package is under active development. Expect code changes on a daily basis.
 
 ## An image
 
+![](notebooks/images/information-flow.svg)
+
+
 ```python
 plt.plot(x, y);
 ```
 
 
-![png](docs/images/output_4_0.png)
+![png](docs/images/output_5_0.png)
 
