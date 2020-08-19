@@ -10,8 +10,8 @@ entries:
       title: Overview
       url: /
     - output: web,pdf
-      title: 'Physics '
-      url: /physics
+      title: '`rgbkm` - Color physics of translucent inks  '
+      url: /rgbkm
     output: web
     title: inktime
   output: web
