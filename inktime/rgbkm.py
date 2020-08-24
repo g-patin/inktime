@@ -6,9 +6,7 @@ __all__ = ['reflectance']
 import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.cm as cm
-#import plotutils as plu
 import cv2
-#import myutils as mu
 
 import scipy.optimize as optimize
 
@@ -20,21 +18,19 @@ def reflectance(K, S, D, Rg):
     Function works for single channel, 3 RGB channels, and spectral data/images with muliple wavelength channels.
 
 
-    Parameters
-    ----------
-    K: tuple-like (n channels)
-        Colorant absorption coefficients for wavelength or RGB channels
-    S: tuple-like (n channels)
-        Colorant scattering coefficients for wavelength or RGB channels
-    D: array ( height x width)
-        Colorant thickness image
-    Rg: array (height x width x n) or rgb tuple with shape (3,)
-        Background reflectance image or background color
+    Parameters:
+        K: tuple-like (n channels)
+            Colorant absorption coefficients for wavelength or RGB channels
+        S: tuple-like (n channels)
+            Colorant scattering coefficients for wavelength or RGB channels
+        D: array ( height x width)
+            Colorant thickness image
+        Rg: array (height x width x n) or rgb tuple with shape (3,)
+            Background reflectance image or background color
 
-    Returns:
-    --------
-    refl: array (height x width x n)
-        n-channel reflectance image
+        Returns:
+            refl: array (height x width x n)
+                n-channel reflectance image
 
     '''
 
