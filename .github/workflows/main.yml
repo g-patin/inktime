@@ -13,6 +13,9 @@ jobs:
       run: |
         pip install nbdev jupyter
         pip install -e .
+    - name: Install opencv
+      run: |
+        sudo apt install python3-opencv
     - name: Read all notebooks
       run: |
         nbdev_read_nbs
