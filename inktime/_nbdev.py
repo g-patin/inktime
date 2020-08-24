@@ -2,9 +2,14 @@
 
 __all__ = ["index", "modules", "custom_doc_links", "git_url"]
 
-index = {"reflectance": "00_rgbkm.ipynb"}
+index = {"reflectance": "00_rgbkm.ipynb",
+         "fetch_star": "01_data.ipynb",
+         "fetch_blackwhite": "01_data.ipynb",
+         "GOODBOY": "01_data.ipynb",
+         "registry_file": "01_data.ipynb"}
 
-modules = ["rgbkm.py"]
+modules = ["rgbkm.py",
+           "data.py"]
 
 doc_url = "https://fligt.github.io/inktime/"
 
