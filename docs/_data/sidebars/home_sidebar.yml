@@ -13,7 +13,7 @@ entries:
       title: '`rgbkm` - Color physics of translucent inks  '
       url: /rgbkm
     - output: web,pdf
-      title: 'Downloading demo data  '
+      title: 'Demo datasets '
       url: /data
     output: web
     title: inktime

@@ -29,7 +29,6 @@ def fetch_star():
 
     Returns:
     --------
-
     im: numpy array'''
 
     fpath = GOODBOY.fetch('star.png')
@@ -42,7 +41,6 @@ def fetch_blackwhite():
 
     Returns:
     --------
-
     im: numpy array'''
 
     fpath = GOODBOY.fetch('blackwhite.png')
