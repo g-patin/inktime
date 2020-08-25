@@ -28,7 +28,9 @@ def fetch_star():
     '''Download demo data file *star.png* into cache once.
 
     Returns:
+    --------
         im: numpy array
+
     '''
 
     fpath = GOODBOY.fetch('star.png')
@@ -40,7 +42,9 @@ def fetch_blackwhite():
     '''Download demo data file *blackwhite.png* into cache once.
 
     Returns:
+    --------
         im: numpy array
+
     '''
 
     fpath = GOODBOY.fetch('blackwhite.png')
