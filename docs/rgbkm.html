@@ -169,10 +169,14 @@ sidebar: home_sidebar
 <div class="output_markdown rendered_html output_subarea ">
 <h4 id="reflectance" class="doc_header"><code>reflectance</code><a href="https://github.com/fligt/inktime/tree/master/inktime/rgbkm.py#L14" class="source_link" style="float:right">[source]</a></h4><blockquote><p><code>reflectance</code>(<strong><code>K</code></strong>, <strong><code>S</code></strong>, <strong><code>D</code></strong>, <strong><code>Rg</code></strong>)</p>
 </blockquote>
-<p>Calculates reflectance for single colorant Kubelka-Munk model.</p>
-<p>Based on Nobbs (1997) formulation with modified Saunderson expression for infinite reflectance.
-Function works for single channel, 3 RGB channels, and spectral data/images with muliple wavelength channels.</p>
-<p>Parameters:
+
+<pre><code>Calculates reflectance for single colorant Kubelka-Munk model.
+
+Based on Nobbs (1997) formulation with modified Saunderson expression for infinite reflectance.
+Function works for single channel, 3 RGB channels, and spectral data/images with muliple wavelength channels.
+
+
+Parameters:
     K: tuple-like (n channels)
         Colorant absorption coefficients for wavelength or RGB channels
     S: tuple-like (n channels)
@@ -180,9 +184,9 @@ Function works for single channel, 3 RGB channels, and spectral data/images with
     D: array ( height x width)
         Colorant thickness image
     Rg: array (height x width x n) or rgb tuple with shape (3,)
-        Background reflectance image or background color</p>
+        Background reflectance image or background color
 
-<pre><code>Returns:
+Returns:
     refl: array (height x width x n)
         n-channel reflectance image</code></pre>
 
