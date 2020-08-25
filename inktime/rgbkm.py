@@ -28,9 +28,9 @@ def reflectance(K, S, D, Rg):
         Rg: array (height x width x n) or rgb tuple with shape (3,)
             Background reflectance image or background color
 
-        Returns:
-            refl: array (height x width x n)
-                n-channel reflectance image
+    Returns:
+        refl: array (height x width x n)
+            n-channel reflectance image
 
     '''
 
