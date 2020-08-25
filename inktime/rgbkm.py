@@ -14,7 +14,7 @@ import scipy.optimize as optimize
 def reflectance(K, S, D, Rg):
     '''Calculates reflectance for single colorant Kubelka-Munk model.
 
-    Based on Nobbs (1997) formulation with modified Saunderson expression for infinite reflectance.
+    Based on *Nobbs* (1997) formulation with modified Saunderson expression for infinite reflectance.
     Function works for single channel, 3 RGB channels, and spectral data/images with muliple wavelength channels.
 
 

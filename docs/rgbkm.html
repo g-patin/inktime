@@ -172,11 +172,12 @@ sidebar: home_sidebar
 
 <pre><code>Calculates reflectance for single colorant Kubelka-Munk model.
 
-Based on Nobbs (1997) formulation with modified Saunderson expression for infinite reflectance.
+Based on *Nobbs* (1997) formulation with modified Saunderson expression for infinite reflectance.
 Function works for single channel, 3 RGB channels, and spectral data/images with muliple wavelength channels.
 
 
 Parameters:
+-----------
     K: tuple-like (n channels)
         Colorant absorption coefficients for wavelength or RGB channels
     S: tuple-like (n channels)
@@ -187,6 +188,7 @@ Parameters:
         Background reflectance image or background color
 
 Returns:
+--------
     refl: array (height x width x n)
         n-channel reflectance image</code></pre>
 
