@@ -27,6 +27,8 @@ GOODBOY.load_registry(registry_file)
 def fetch_star():
     '''Download demo data file *star.png* into cache once.
 
+    Utility function.
+
     Returns:
     --------
         im: numpy array
@@ -40,6 +42,9 @@ def fetch_star():
 
 def fetch_blackwhite():
     '''Download demo data file *blackwhite.png* into cache once.
+
+    Utility function.
+
 
     Returns:
     --------
