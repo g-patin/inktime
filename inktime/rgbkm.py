@@ -19,6 +19,7 @@ def reflectance(K, S, D, Rg):
 
 
     Parameters:
+    -----------
         K: tuple-like (n channels)
             Colorant absorption coefficients for wavelength or RGB channels
         S: tuple-like (n channels)
@@ -29,6 +30,7 @@ def reflectance(K, S, D, Rg):
             Background reflectance image or background color
 
     Returns:
+    --------
         refl: array (height x width x n)
             n-channel reflectance image
 
