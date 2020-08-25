@@ -24,10 +24,13 @@ GOODBOY = pooch.create(
 registry_file = pkg_resources.resource_stream('inktime', 'registry.txt')
 GOODBOY.load_registry(registry_file)
 
+
 def fetch_star():
     '''Download demo data file *star.png* into cache once.
 
-    Utility function.
+    Utility function. Blah.
+    Blah.
+
 
     Returns:
     --------
@@ -39,6 +42,7 @@ def fetch_star():
     im = plt.imread(fpath)
 
     return im
+
 
 def fetch_blackwhite():
     '''Download demo data file *blackwhite.png* into cache once.
@@ -56,3 +60,4 @@ def fetch_blackwhite():
     im = plt.imread(fpath)
 
     return im
+
