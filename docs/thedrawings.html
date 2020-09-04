@@ -1,6 +1,6 @@
 ---
 
-title: Zooming in 
+title: Rembrandt drawings in Rijksmuseum collection 
 
 keywords: fastai
 sidebar: home_sidebar
@@ -36,42 +36,33 @@ sidebar: home_sidebar
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Ehm, how about <h1>tags</h1></p>
+<h2 id="Overview">Overview<a class="anchor-link" href="#Overview"> </a></h2>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><em>Need table here</em></p>
 
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Which keywords appear here: {{page.keywords}}</p>
-
+<h2 id="Deepzoom-mult-image-test">Deepzoom mult-image test<a class="anchor-link" href="#Deepzoom-mult-image-test"> </a></h2>
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Ok, now I need to check if indeed javascript is stripped like Emma says.</p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Deepzoom">Deepzoom<a class="anchor-link" href="#Deepzoom"> </a></h2>
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p><div id="openseadragon1" style="width: 800px; height: 600px; background-color: gray"></div></p>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/openseadragon/2.4.2/openseadragon.min.js" 
+<div id="openseadragon2" style="width: 800px; height: 600px; background-color: gray"></div><script src="https://cdnjs.cloudflare.com/ajax/libs/openseadragon/2.4.2/openseadragon.min.js" 
         integrity="sha512-qvQYH6mPuE46uFcWLI8BdGaJpB5taX4lltbSIw5GF4iODh2xIgyz5ii1WpuzPFUknHCps0mi4mFGR44bjdZlZg==" 
         crossorigin="anonymous">
 </script><script type="text/javascript">
 var viewer = OpenSeadragon({
-    id: "openseadragon1",
-    prefixUrl: "./js/images/", 
-    tileSources: {
+    id: "openseadragon2",
+    prefixUrl: "https://cdnjs.cloudflare.com/ajax/libs/openseadragon/2.4.2/images/", 
+    tileSources: [{
         Image: {
            xmlns:    "http://schemas.microsoft.com/deepzoom/2008",
            Url:      "https://dore-data.s3.us-west-002.backblazeb2.com/viewers/RP-T-1964-127-recto_files/", 
@@ -83,7 +74,22 @@ var viewer = OpenSeadragon({
                Width: "4824" 
             }
         }
-    }
+    }, 
+    {
+        Image: {
+           xmlns:    "http://schemas.microsoft.com/deepzoom/2008",
+           Url:      "https://dore-data.s3.us-west-002.backblazeb2.com/viewers/RP-T-1964-127-recto_files/", 
+           Format: "jpeg", 
+           Overlap: "1",  
+           TileSize: "254", 
+           Size: {
+               Height: "3840", 
+               Width: "4824" 
+            }
+        }
+    }], 
+    sequenceMode: true,
+    preserveViewport: true   
  });
 </script>
 </div>

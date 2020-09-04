@@ -46,6 +46,7 @@ defaults:
       search: true
       sidebar: home_sidebar
       topnav: topnav
+      datatable: true
   -
     scope:
       path: ""

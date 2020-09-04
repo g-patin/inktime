@@ -16,7 +16,7 @@ entries:
       title: 'Demo datasets '
       url: /data
     - output: web,pdf
-      title: 'Zooming in '
+      title: 'Rembrandt drawings in Rijksmuseum collection '
       url: /thedrawings
     output: web
     title: inktime
