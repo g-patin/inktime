@@ -69,7 +69,13 @@ sidebar: home_sidebar
 var viewer = OpenSeadragon({
     id: "openseadragon1_dzi",
     prefixUrl: "https://cdnjs.cloudflare.com/ajax/libs/openseadragon/2.4.2/images/", 
-    tileSources: "https://f002.backblazeb2.com/file/dore-data/deepzoom/dzp_RP-T-1930-22_highres/RP-T-1930-22_highres.dzi" 
+    tileSources: [
+    "https://f002.backblazeb2.com/file/dore-data/deepzoom/dzp_RP-T-1930-22_highres/RP-T-1930-22_highres.dzi", 
+    "https://f002.backblazeb2.com/file/dore-data/deepzoom/dzp_RP-T-1930-22_highres/RP-T-1930-22_highres.dzi"], 
+    sequenceMode: true,
+    preserveViewport: true,
+    showReferenceStrip: true,
+    showNavigator: true
  });
 </script>
 </div>
