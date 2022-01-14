@@ -1,8 +1,5 @@
 # Inktime
-> Physics simulations for interdisciplinary investigation of historic drawings.
+> Color physics simulations for interdisciplinary investigation of historic drawings and photographs
 
 
-## A causal inference framework 
-
-![](notebooks/images/information-flow.svg)
-
+The color physics of translucent color 
