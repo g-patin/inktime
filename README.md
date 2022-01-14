@@ -2,8 +2,12 @@
 > Color physics simulations for interdisciplinary investigation of historic drawings and photographs
 
 
-The Kubelka-Munk equations of color are rather complicated, as can be seen in the table below...
+What was the original appearance of Vincent van Gogh's ink drawings? Can we predict the fading behavior of color photographs? Many intriguing questions that we have about the colors of artworks on paper require the ability to model the color physics of translucent colors. 
 
-<img width="50%" src="https://raw.githubusercontent.com/fligt/inktime/master/docs/images/stackplot_detail.png">
+`Inktime` is an open source python package that enables simulation of color change of translucent and transparent inks, dyes and paints on paper.   
 
-Kubelka
+<img width="90%" src="https://raw.githubusercontent.com/fligt/inktime/master/docs/images/stack_plot_detail.png">
+
+*Simulated color change of a logwood ink*
+
+The `inktime` package is currently (Jan 2022) under development by myself and Rahul Sharma. Please visit this repository in a few weeks time for further developments and instructions for use!  
