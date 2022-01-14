@@ -4,6 +4,6 @@
 
 The Kubelka-Munk equations of color are rather complicated, as can be seen in the table below...
 
-<img width="50%" src="https://raw.githubusercontent.com/fligt/inktime/master/docs/images/eosine.jpg">
+<img width="50%" src="https://raw.githubusercontent.com/fligt/inktime/master/docs/images/stackplot_detail.png">
 
 Kubelka
