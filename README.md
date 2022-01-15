@@ -6,7 +6,7 @@ What was the original appearance of Vincent van Gogh's ink drawings? Can we pred
 
 `Inktime` is an open source python package that enables simulation of color change of translucent and transparent inks, dyes and paints on paper.   
 
-    # img width=90% src="https://raw.githubusercontent.com/fligt/inktime/master/docs/images/stack_plot_detail.png">
+<img width="90%" src="https://github.com/fligt/color-workshop/blob/main/logwood.png">
 
 *Simulated color change of a logwood ink containing methyl-violet*
 
