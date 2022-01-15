@@ -2,11 +2,11 @@
 
 __all__ = ["index", "modules", "custom_doc_links", "git_url"]
 
-index = {"reflectance": "00_rgbkm.ipynb",
-         "fetch_star": "01_data.ipynb",
-         "fetch_blackwhite": "01_data.ipynb",
-         "GOODBOY": "01_data.ipynb",
-         "registry_file": "01_data.ipynb"}
+index = {"reflectance": "10_Color-physics-of-translucent-inks.ipynb",
+         "fetch_star": "20_downloading-demo-data.ipynb",
+         "fetch_blackwhite": "20_downloading-demo-data.ipynb",
+         "GOODBOY": "20_downloading-demo-data.ipynb",
+         "registry_file": "20_downloading-demo-data.ipynb"}
 
 modules = ["rgbkm.py",
            "data.py"]

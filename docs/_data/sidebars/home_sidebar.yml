@@ -10,11 +10,14 @@ entries:
       title: Overview
       url: /
     - output: web,pdf
-      title: 'Color physics of translucent inks  '
-      url: /rgbkm
+      title: 'Color physics of transparent dyes '
+      url: /Color-physics-of-transparent-dyes
     - output: web,pdf
-      title: 'Demo datasets '
-      url: /data
+      title: 'Color physics of translucent inks  '
+      url: /Color-physics-of-translucent-inks
+    - output: web,pdf
+      title: 'Downloading demo data '
+      url: /downloading-demo-data
     output: web
     title: inktime
   output: web
