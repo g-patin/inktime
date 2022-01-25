@@ -2,13 +2,16 @@
 
 __all__ = ["index", "modules", "custom_doc_links", "git_url"]
 
-index = {"reflectance": "10_Color-physics-of-translucent-inks.ipynb",
+index = {"transmission": "02_thinking-transparent.ipynb",
+         "kaleidoscope": "02_thinking-transparent.ipynb",
+         "reflectance": "10_Color-physics-of-translucent-inks.ipynb",
          "fetch_star": "20_downloading-demo-data.ipynb",
          "fetch_blackwhite": "20_downloading-demo-data.ipynb",
          "GOODBOY": "20_downloading-demo-data.ipynb",
          "registry_file": "20_downloading-demo-data.ipynb"}
 
-modules = ["rgbkm.py",
+modules = ["transparent.py",
+           "rgbkm.py",
            "data.py"]
 
 doc_url = "https://fligt.github.io/inktime/"
