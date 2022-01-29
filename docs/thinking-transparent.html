@@ -2,11 +2,13 @@
 
 title: Thinking transparent 
 
+
 keywords: fastai
 sidebar: home_sidebar
 
 summary: "No scattering makes life easier "
 description: "No scattering makes life easier "
+nb_path: "notebooks/02_thinking-transparent.ipynb"
 ---
 <!--
 
@@ -32,7 +34,7 @@ description: "No scattering makes life easier "
 <p>Simulation of color change over time requires structural color physics model. In the general case of <strong>scattering</strong> colorants this is quite a challenge. First we need to know the optical scattering and absorption properties of all paints in the palette. And furthermore we need to know the local composition and thickness of paint mixtures within individual paint strokes. Ultimately this structural model data then needs to be fed into the complicated mathematical machinery of Kubelka-Munk equations.</p>
 <p>Pff, all together a rather complicated problem. We will deal with this later. Fortunately, the modeling of transparent (i.e. non-scattering) colors such as inks and dyes is much simpler. An object can be thought of as a background with a number of transparent colored layers on top. These layers act like filters. Their ordering does not matter. Such colors are called subtractive. The colors of a color photograph are the result of the combined filter action of specific amounts of cyan, magenta and yellow.</p>
 <p>In a typical situation we are confronted with a drawing or photograph and we do not have information about the palette of inks or the set of dyes that constitute the primaries. Also we do not know how these colorants are distributed. We magically need to separate the optical properties of the colorants, and come up with a concentration or thickness map for each colorant layer.</p>
-<p>Let's load the <a href="/inktime/thinking-transparent#kaleidoscope"><code>kaleidoscope</code></a> test image, and see how we can separate the cyan, magenta and yellow primary colors.</p>
+<p>Let's load the <a href="/inktime/thinking-transparent.html#kaleidoscope"><code>kaleidoscope</code></a> test image, and see how we can separate the cyan, magenta and yellow primary colors.</p>
 
 </div>
 </div>
@@ -66,10 +68,10 @@ description: "No scattering makes life easier "
 
 
 
-<div id="12f13868-8b1d-48cd-bfe4-3b425f69ecc1"></div>
+<div id="c8369a9f-252f-4615-84eb-a0407ef94cd5"></div>
 <div class="output_subarea output_javascript ">
 <script type="text/javascript">
-var element = $('#12f13868-8b1d-48cd-bfe4-3b425f69ecc1');
+var element = $('#c8369a9f-252f-4615-84eb-a0407ef94cd5');
 /* Put everything inside the global mpl namespace */
 /* global mpl */
 window.mpl = {};
@@ -1100,10 +1102,10 @@ if (IPython.notebook.kernel !== null) {
 
 
 
-<div id="81a6d1cb-7407-41b0-b3b0-da7d09e97bff"></div>
+<div id="0d8a85ad-db56-4e03-9e5f-3eea437013fb"></div>
 <div class="output_subarea output_javascript ">
 <script type="text/javascript">
-var element = $('#81a6d1cb-7407-41b0-b3b0-da7d09e97bff');
+var element = $('#0d8a85ad-db56-4e03-9e5f-3eea437013fb');
 /* Put everything inside the global mpl namespace */
 /* global mpl */
 window.mpl = {};
@@ -2159,13 +2161,6 @@ if (IPython.notebook.kernel !== null) {
     
 <div class="cell border-box-sizing code_cell rendered">
 
-</div>
-    {% endraw %}
-
-    {% raw %}
-    
-<div class="cell border-box-sizing code_cell rendered">
-
 <div class="output_wrapper">
 <div class="output">
 
@@ -2328,6 +2323,13 @@ If *return_layers*=True, then addition layer primaries and transmission images a
 
 </div>
 </div>
+
+</div>
+    {% endraw %}
+
+    {% raw %}
+    
+<div class="cell border-box-sizing code_cell rendered">
 
 </div>
     {% endraw %}
