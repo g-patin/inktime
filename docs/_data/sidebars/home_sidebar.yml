@@ -10,8 +10,8 @@ entries:
       title: Overview
       url: /
     - output: web,pdf
-      title: 'Thinking transparent '
-      url: thinking-transparent.html
+      title: 'Transparent thinking  '
+      url: transparent-thinking.html
     - output: web,pdf
       title: 'Color physics of transparent dyes '
       url: Color-physics-of-transparent-dyes.html
