@@ -58,8 +58,9 @@ defaults:
       tooltip: true
 
 sidebars:
-- home_sidebar
-permalink: pretty
+- home_sidebar 
+# trying to fix broken links in sidebar 
+#permalink: pretty
 
 theme: jekyll-theme-cayman
 baseurl: /inktime/
