@@ -2,12 +2,12 @@
 
 __all__ = ["index", "modules", "custom_doc_links", "git_url"]
 
-index = {"transmission": "02_transparent-thinking.ipynb",
+index = {"Stratigraphy": "02_transparent-thinking.ipynb",
+         "transmission": "02_transparent-thinking.ipynb",
          "kaleidoscope": "02_transparent-thinking.ipynb",
          "optical_density": "02_transparent-thinking.ipynb",
          "primaries": "02_transparent-thinking.ipynb",
          "palette_plot": "02_transparent-thinking.ipynb",
-         "Stratigraphy": "02_transparent-thinking.ipynb",
          "reflectance": "10_Color-physics-of-translucent-inks.ipynb",
          "fetch_star": "20_downloading-demo-data.ipynb",
          "fetch_blackwhite": "20_downloading-demo-data.ipynb",
