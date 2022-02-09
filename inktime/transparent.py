@@ -153,7 +153,7 @@ def kaleidoscope(K_CMY=None, bg_color='white', return_layers=False):
 
     if K_CMY is None:
         # default primaries
-        K_CMY = [[1, 0.05, 0.07], [0.02, 1, 0.05], [0.07, 0.05, 1]]
+        K_CMY = [[0.9, 0.03, 0.07], [0.05, 0.9, 0.05], [0.02, 0.06, 0.92]]
 
     K_cyan, K_magenta, K_yellow = K_CMY
 
