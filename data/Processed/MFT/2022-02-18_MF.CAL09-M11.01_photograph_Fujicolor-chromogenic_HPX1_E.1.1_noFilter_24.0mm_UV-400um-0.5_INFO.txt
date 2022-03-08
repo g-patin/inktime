@@ -1,0 +1,48 @@
+parameter,value
+[MICRO-FADING ANALYSIS], 
+author,Gauthier Patin
+date,2022-02-18
+project,3.4.9_Chromogenic_Frank
+[SAMPLE DATA], 
+sample_type,photograph
+sample_nb,CAL09-M11
+pigment,magenta
+ratio,1
+colour,magenta
+thickness_microns,unknown
+sample_date,2014-09-17 09:49
+[DEVICE DATA], 
+device,Tidas_S 400
+option,E.1.1
+zoom,x3.2
+geometry,45° : 0°
+distance_ill_mm,24.0
+fiber_ill,"Avantes, UV400um-0.5m"
+lamp,"HPX1_Ocean Optics, HPX-2000-HP-DUV"
+filter,noFilter
+white_ref,WR1
+[ANALYSIS DATA], 
+Id,MF.M11.01
+specular_component,included
+integration_time_ms,155.00
+average,15
+duration_min,60.0
+interval_sec,20.0
+measurements_N,180
+illuminant,D65
+observer,10deg
+[BEAM DATA], 
+beam_photo,01
+resolution_micron/pixel,0.6859
+FWHM_micron,1649.0
+power_mW,P.0805_20.588+/-0.013
+irradiance_W/m**2,7300.0+/-2000.0
+luminuous_flux_lm,3.43
+illuminance_lux,1605374
+[RESULTS], 
+E_1dE00_MJ/m**2_Mlx.hr,0.0_0.0
+E_2dE00_MJ/m**2_Mlx.hr,0.0_0.0
+dEab,1.16
+dE00,0.49
+dR_VIS,0.94
+dR,0.79
