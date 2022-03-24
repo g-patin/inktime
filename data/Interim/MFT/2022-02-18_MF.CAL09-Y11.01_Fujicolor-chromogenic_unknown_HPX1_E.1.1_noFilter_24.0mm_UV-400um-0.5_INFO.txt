@@ -1,0 +1,48 @@
+parameter,value
+[MICRO-FADING ANALYSIS], 
+author,Gauthier Patin
+date,2022-02-18
+project,3.4.9_Inktime_Frank
+[SAMPLE DATA], 
+sample_type,Fujicolor-chromogenic
+sample_nb,CAL10-Y11
+pigment,unknown
+ratio,1
+colour,yellow
+thickness_microns,unknown
+sample_date,2014-09-09 09:28
+[DEVICE DATA], 
+device,Tidas_S 400
+option,E.1.1
+zoom,x3.2
+geometry,45° : 0°
+distance_ill_mm,24.0
+fiber_ill,"Avantes, UV400um-0.5m"
+lamp,"HPX1_Ocean Optics, HPX-2000-HP-DUV"
+filter,noFilter
+white_ref,WR1
+[ANALYSIS DATA], 
+Id,MF.CAL09-Y11.01
+specular_component,included
+integration_time_ms,155.00
+average,15
+duration_min,60.0
+interval_sec,20.0
+measurements_N,180
+illuminant,D65
+observer,10deg
+[BEAM DATA], 
+beam_photo,01
+resolution_micron/pixel,0.6859
+FWHM_micron,1649.0
+power_mW,P.0806_20.335+/-0.017
+irradiance_W/m**2,7196+/-1939
+luminuous_flux_lm,3.38
+illuminance_lux,1582503
+[RESULTS], 
+E_1dE00_MJ/m**2_Mlx.hr,0.0_0.0
+E_2dE00_MJ/m**2_Mlx.hr,0.0_0.0
+dEab,1.26
+dE00,0.62
+dR_VIS,0.59
+dR,1.25
